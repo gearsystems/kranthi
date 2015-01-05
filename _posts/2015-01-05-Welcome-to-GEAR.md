@@ -1,6 +1,7 @@
 ---
 layout: post
 title: What's GEAR?
+comments: True
 ---
 
 <div class="message">
