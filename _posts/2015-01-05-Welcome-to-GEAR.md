@@ -2,6 +2,8 @@
 layout: post
 title: What's GEAR?
 comments: True
+redirect_from: "/2015/01/05/Welcome-to-GEAR/"
+permalink: welcome-to-gear
 ---
 
 <div class="message">

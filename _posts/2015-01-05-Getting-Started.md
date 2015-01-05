@@ -2,6 +2,8 @@
 layout: post
 title: Getting Started
 comments: True
+redirect_from: "/2015/01/05/Getting-Started/"
+permalink: getting-started
 ---
 
 
