@@ -11,8 +11,7 @@ relative_permalinks: true
 title:               Kranthi Kiran
 tagline:             'Personalized Diary'
 description:         'Project Lead at GEAR'
-url:                 http://gearsystems.github.io
-baseurl:             /kranthi/
+url:                 http://kranthi.gearsystems.org/
 paginate:            5
 
 # About/contact
