@@ -2,7 +2,7 @@
 layout: post
 title: Setting Up Django
 comments: True
-redirect_from: "/2015/01/05/Setting-Up-Django/"
+redirect_from: "/2015/01/06/Setting-Up-Django/"
 permalink: setting-up-django
 ---
 

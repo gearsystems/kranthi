@@ -2,7 +2,7 @@
 layout: post
 title: Exploring Django
 comments: True
-redirect_from: "/2015/01/05/Exploring-Django/"
+redirect_from: "/2015/01/07/Exploring-Django/"
 permalink: exploring-django
 ---
 

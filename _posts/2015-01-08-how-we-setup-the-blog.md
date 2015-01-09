@@ -1,0 +1,25 @@
+---
+layout: post
+title: How we have setup this blog?
+comments: True
+redirect_from: "/2015/01/08/Exploring-Django/"
+permalink: setup-jekyll-blog
+---
+
+The team has been instructed by `Dr. DVSS Shiva Sharma`, the faculty head for the EPICS course to maintain a diary of all the work that is being done, so that self evaluation can take place easily. We as a group of techies came up with replacing manual diary job with blogs. Soon, the idea was accepted and was made a better solution over diary. 
+
+But, running a blog can often become painful and maintaining it can be even more a difficult task. It is expensive too if one chooses to purchase a server to deploy blog using wordpress or any other CMS. [Sudheesh](http://sudheesh.gearsystems.org/) and I have experience with blogger, wordpress, django-CMS and the popular and innovative github gh-pages based jekyll blog. [Jekyll](http://jekyllrb.com) is built using Ruby language. It has an awesome number of people in its community commiting/contributing to it regularly. On top of all, it serves static pages, which is by far the fastest compared to traditional CMS blogs which requires databases and paintaking update/patches for security/bug-fixes. Jekyll is free and helps student developers like me and my team to maintain a site using github. The github repo usually works as CPANEL and issue tracker for us.:stuck_out_tongue:
+
+Since all of the team has experience using github, it was not a problem creating blogs for each of us under [gearsystems](http://github.com/gearsystems) organisation. So, the basic Jekyll blog shall provide you with least styling and one will need to make many customisations starting from writing layouts, includes to installing plugins and maintaining a feed.xml
+
+Sudheesh and I have used [jekyllthemes.org](http://jekyllthemes.org) previously to build our personal blogs. With experience, we have chosen the `base16 lanyon` theme by `poole`.It's highly minimal and simple for people like us to write and publish posts on a daily basis. We cloned the [repository](http://github.com/poole/lanyon) and started configuring it with our requirements. We chose colors for each of our blogs, as you see it from [kranthi](http://kranthi.gearsystems.org),[sudheesh](http://sudheesh.gearsystems.org),[rajat](http://rajat.gearsystems.org),[rahuljain](http://rahuljain.gearsystems.org),[rahulyadav](http://rahulyadav.gearsystems.org) and [arjun bhargav](http://arjun.gearsystems.org).
+
+My blog and Sudheesh's blog might look a little different since we added disqus comments functionality. I also have added emoticons plugin to my blog which makes this a little more unique :sunglasses:
+
+So, when we pushed our blogs with gh-pages branch to repositories at our organisation, we get our blog up and running at `gearsystems.github.io/<name>` where `<name>` is name of a team member. We bought a domain name today which goes by gearsystems.org . The .org at the end indicates that we are an organisation. I chose to create subdomains for each of us by giving a url like `<name>.gearsystems.org` or this site for example. Inorder to do this, we have to create CNAME records in the DNS settings by name of each person and their address should point to our repository page i.e gearsystems.github.io .
+
+Creating CNAME with each of the team member name pointing to same address will not make any sense until each of the repository at organisation can distinguish it. So, we have pushed a CNAME file with our respective subdomain address with no http prefix and trailing suffixes in our respective blog repositories. All thanks to github page generator which identifies CNAME and makes each of the subdomain at gearsystems.org be unique by its repository in which it has been mentioned.
+
+The DNS changes took 1-2 hours to make the changes kick in and finally all of our blogs are up at subdomains on gearsystems.org . Later, I went to create our official [team blog](http://blog.gearsystems.org) at blog.gearsystems.org . I loved a jekyll theme built by hmfaysal named Notepad. It's theme, interface and features are really awesome and would look great if we used it for our team blog. Soon, I have cloned it and reconfigured it to our taste and made a first post. I have added disqus commenting to it. I am excited to write and publish posts using these jekyll blogs. Oh, I have to add that inorder to write a post, one must have some knowledge of markdown language and liquid templating. Github provides some cheatsheet for writing in markdown. Markdown is pretty straight forward and content focused language which makes it cool for publishing a blog. More on markdown and publishing posts using jekyll will be written in upcoming posts.
+
+The gear began to spin, we have started pushing commits to public portal. Stay tuned for more updates and cool stuff that I usually write. 
