@@ -10,7 +10,7 @@ relative_permalinks: true
 # Setup
 title:               Kranthi Kiran
 tagline:             'Personalized Diary'
-description:         'Project Lead at GEAR'
+description:         'Project Lead at GEAR as part of EPICS at NIT Warangal'
 url:                 http://kranthi.gearsystems.org/
 paginate:            5
 
